@@ -1,0 +1,92 @@
+body{
+  color: #666;
+	font-family: monospace;
+	text-align: center;
+	animation: sepia ease-in-out 1s 1;
+	background: #222
+}
+		@keyframes sepia {
+  from { filter: blur(100px); }
+  to { filter: blur(0px); }
+}
+
+h2 {
+	color: #666;
+	font-family: monospace;
+	text-align: center;
+	}
+  h3 {
+	color: #666;
+	font-family: monospace;
+	text-align: center;
+	}
+  @keyframes animationR {
+    
+    0%{
+      	background: #fff;
+	border: solid 3px #fff;
+	box-sizing: content-box;
+        transform: rotate(45deg)
+
+    }
+   
+    25%{
+	background: #ff0000;
+	border: solid 3px #fff;
+	box-sizing: content-box;
+        transform: rotate(180deg)
+    }
+    50% {
+      background: #ff0000;
+	border: solid 3px #ff0000;
+	box-sizing: content-box;
+        transform: rotate(360deg)
+    }
+  }
+  
+.background {
+	table-layout: fixed;
+	border-spacing: 0
+}
+.background td {
+	padding: 0
+}
+.lava, .actor {
+	background: #e55
+}
+.wall {
+	background: #444;
+	border: solid 3px #333;
+	box-sizing: content-box
+}
+.inviswall {
+	background: #222;
+	border: solid 3px #2223;
+	box-sizing: content-box
+}
+.wall2 {
+	background: #444;
+	border: solid 3px #333;
+	box-sizing: content-box
+}
+.actor {
+	position: absolute
+}
+.coin {
+	background: #e2e838;
+	border-radius: 50%
+}
+.player {
+	background: #335699;
+	box-shadow: none
+}
+.lost .player {
+	background: rgb(160, 64, 64)
+}
+.won .player  {
+	background: green
+}
+.game {
+	position: relative;
+	overflow: hidden
+}
